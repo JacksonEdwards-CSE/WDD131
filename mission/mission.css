@@ -1,0 +1,55 @@
+body{
+    font-family: 'News';
+}
+
+#content{
+    max-width: 60%;
+    padding: 10px;
+    margin: 50px auto;
+    border: 1px solid lightgray;
+    justify-content: center;
+}
+
+hr{
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+p{
+    margin-top: 50px;
+    width: 70%;
+    font-size: 0.9em;
+    margin: 0 auto;
+}
+
+#name{
+    color: #2b6ec5;
+    text-align: center;
+    margin-top: 10px;
+    width: 75%;
+}
+
+#list-intro{
+    margin-top: 20px;
+    font-style: italic;
+}
+
+ol{
+    width: 70%;
+    margin: 0 auto;
+}
+
+li{
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+img{
+    width: 20%;
+    display: block;
+    margin: 50px auto;
+}
