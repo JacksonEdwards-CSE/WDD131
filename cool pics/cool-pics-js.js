@@ -3,6 +3,9 @@ const modal = document.querySelector('dialog');
 const modalImage = modal.querySelector('img');
 const closeButton = modal.querySelector('.close-viewer');
 
+const menu = document.getElementById("menu");
+const links = document.querySelector(".links");
+
 gallery.addEventListener('click', openModal);
 
 function openModal(event) { 
@@ -29,3 +32,8 @@ modal.addEventListener('click', (event) => {
         modal.close();
     }
 });
+
+menu.addEventListener("click", handleMenuButtonClick);
+function handleMenuButtonClick(event){
+    links.classList.toggle("links");
+}

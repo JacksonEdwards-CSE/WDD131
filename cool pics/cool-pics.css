@@ -13,7 +13,7 @@ header, footer{
     width: 100%;
 }
 
-#links{
+.links{
     display: none;
 }
 
@@ -58,6 +58,10 @@ dialog {
     right: 2vh;
     padding: 3px 6px;
     font-size: 1.5em;
+}
+
+.unhide{
+    display: block;
 }
 
 @media screen and (min-width: 780px) and (max-width: 1199px){
