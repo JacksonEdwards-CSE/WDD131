@@ -56,7 +56,7 @@ nav a{
 
 .book-cover img{
     padding: 10px 0;
-    width: 40%;
+    width: 30%;
 }
 
 .summary{
@@ -75,7 +75,7 @@ footer{
 @media screen and (min-width : 600px) {
 
     .content{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
         border: none;
     }
     .book-rating{
@@ -95,9 +95,5 @@ footer{
     .title{
         padding-left: 10%;
         text-align: left;
-    }
-
-    .book-cover img{
-        width: 40%;
     }
 }
