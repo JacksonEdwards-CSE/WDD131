@@ -8,7 +8,7 @@ console.log(names[2]);
 
 let ages = [8, 6, 2];
 
-let mixArray = ["three", 3, "triple", 30]
+let mixArray = ["three", 3, "triple", 30];
 
 //objects:
 
@@ -63,8 +63,8 @@ function myFunction_two(num) {
 }     
 
 //-------------------------------------------------------\\
-const ages = [32, 33, 16, 40];
-const result = ages.filter(checkAdult);
+const ages_two = [32, 33, 16, 40];
+const result = ages_two.filter(checkAdult);
 
 function checkAdult(age) {
   return age >= 18;
