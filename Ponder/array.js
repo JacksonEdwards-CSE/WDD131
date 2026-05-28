@@ -47,19 +47,18 @@ console.log(filteredArray);
 
 //Introduced Topics:
 
-//-------------------------------------------------------\\
 const numbers = [65, 44, 12, 4];
-numbers.forEach(myFunction1)
+numbers.forEach(myFunction_one)
 
-function myFunction1(item) {
+function myFunction_one(item) {
   console.log(item * 10); 
 }     
 
 //-------------------------------------------------------\\
-const numbers = [65, 44, 12, 4];
-const newArr = numbers.map(myFunction2)
+const numbers_two = [65, 44, 12, 4];
+const newArr = numbers_two.map(myFunction_two)
 
-function myFunction2(num) {
+function myFunction_two(num) {
   return num * 10;
 }     
 
