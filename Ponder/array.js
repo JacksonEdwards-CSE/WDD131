@@ -44,3 +44,34 @@ let filteredArray = names.filter((name) => {
 });
 
 console.log(filteredArray);
+
+//Introduced Topics:
+
+//-------------------------------------------------------\\
+const numbers = [65, 44, 12, 4];
+numbers.forEach(myFunction1)
+
+function myFunction1(item) {
+  console.log(item * 10); 
+}     
+
+//-------------------------------------------------------\\
+const numbers = [65, 44, 12, 4];
+const newArr = numbers.map(myFunction2)
+
+function myFunction2(num) {
+  return num * 10;
+}     
+
+//-------------------------------------------------------\\
+const ages = [32, 33, 16, 40];
+const result = ages.filter(checkAdult);
+
+function checkAdult(age) {
+  return age >= 18;
+} 
+
+//-------------------------------------------------------\\
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let index = fruits.indexOf("Apple");
+console.log(index);
