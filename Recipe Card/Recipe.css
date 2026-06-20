@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-self: center;
+    width: 90%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+        width: 50px;
+    }
+
+header{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 1em;
+    width: 75%;
+    margin: 20px 0;
+    justify-content: center;
+    align-items: baseline;
+    display: flex;
+}
+
+header img{
+    width: 50px;
+    margin-left: 40px;
+}
+
+#search{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+#search img{
+    width: 10%;
+    border-left: 1px solid black;
+    padding-left: 5px;
+}
+
+.card{
+    margin: 20px 0;
+    width:80%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.card button{
+    width: 50px;
+    display: block;
+    justify-self: left;
+    margin-bottom: 5px;
+    font-size: .75em;
+}
+
+.card h2{
+    font-family: "Amatic SC", sans-serif;
+    color: rgb(61, 189, 231);
+}
+
+.card img{
+    width: 100%;
+}
+
+.description{
+    display: none;
+}
+
+footer{
+    justify-content: center;
+    display: grid;
+    margin: 20px 0;
+    font-size: .75em;
+}
+
+.social{
+    justify-content: center;
+    grid-row: 1/2;
+    margin-left:150px;
+}
+
+.social img{
+    width: 10%;
+}
+
+@media screen and (min-width: 500px){
+
+    header{
+        font-size: 2.5em;
+    }
+
+    header img{
+        width: 100px;
+        margin-left: 150px;
+    }
+
+    #search img{
+        width:40px;
+    }
+
+    .card{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .description{
+        display: block;
+        margin-top: 20px;
+    }
+
+    footer{
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+    .social{
+        grid-column: 2/3;
+        justify-self: end;
+        margin: 0;
+    }
+}
