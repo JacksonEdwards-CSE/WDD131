@@ -11,7 +11,7 @@ const recipes = [
 		image: '../images/sweet-potato-waffle-md.jpg',
 		recipeIngredient: [
 			'2 separated eggs',
-			'1/4 C Oil',
+			'1/4 C Oil', 
 			'1/4 tsp salt',
 			'1/4 tsp Cayenne pepper',
 			'3/4 C milk',
