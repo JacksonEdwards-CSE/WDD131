@@ -9,7 +9,98 @@
 </head>
 <body>
 
+    <header>
+        <img src="images/F1PLS Logo.png" alt="Pit Lane Stats Logo">   
+        <nav>
+            <a href="">Home</a>
+            <a href="">Drivers</a>
+            <a href="">Tracks</a>
+        </nav>
+    </header>
+        
+    <main>
+        <!-- Side Bar -->
+        <div id="side-bar">
+            <p id="filter-menu">Filters ↓</p>
 
+            <div id="filter-form" class="hidden">
+
+                <h3>Tracks or Drivers</h3>
+                
+                <form class="filter-options">
+                    
+                    <label for="">
+                        <input type="radio" name="filter" value="all" checked>
+                        All
+                    </label>
+                    <label for="">
+                        <input type="radio" name="filter" value="drivers">
+                        Drivers
+                    </label>
+                    <label for="">
+                        <input type="radio" name="filter" value="tracks">
+                        Tracks
+                    </label>
+                    
+                </form>
+
+                <h3>Display Order</h3>
+
+                <form class="filter-options">
+
+                    <label for="">
+                        <input type="radio" name="sort-filter" value="newest" checked>
+                        Newest to Oldest
+                    </label>
+                    <label for="">
+                        <input type="radio" name="sort-filter" value="oldest">
+                        Oldest to Newest
+                    </label>
+                    <label for="">
+                        <input type="radio" name="sort-filter" value="country">
+                        Country
+                    </label>
+                    
+                </form>
+            </div>
+        </div>
+
+        <!-- Content div -->
+        <div id="content">
+
+            <div class="card">
+
+                <img src="driver_images/2026alpinefracol01right.avif" alt="Driver">
+
+                <div class="driver-info">
+
+                    <h2>Driver One</h2>
+                    
+                    <div class="driver-stats">
+                        <p>Team</p>
+                        <p>Age: 32</p>
+                        <p>country</p>
+                        <p>Career Age</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+            
+    </main>
     
+    <footer>
+
+        <p>&copy; Jackson Edwards 2026</p>
+
+        <nav>
+            <a href="">Home</a>
+            <a href="">Drivers</a>
+            <a href="">Tracks</a>
+        </nav>
+
+    </footer>
+
 </body>
 </html>
