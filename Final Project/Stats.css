@@ -184,16 +184,17 @@ footer p{
         display: block;
     }
     
-    #content{
+    #sub-page{
         max-height: 7000px;
     }
 
     .card{
         grid-template-columns: 1fr 2fr;
         height: 3.5%;
+        max-height: 11.75em;
     }    
 
-    .track-stats{
+    .track-stats, .driver-stats{
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
