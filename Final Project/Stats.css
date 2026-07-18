@@ -101,13 +101,17 @@ main{
     margin: 5% auto;
 }
 
-.card img{
+.base-img, .driver-img{
     background-color: var(--dark);
     max-width: 100%;
     max-height: 86%;
     object-fit: cover;
     object-position: center top;
     border-right: 2px dashed var(--yellow);
+}
+
+.rotated-img{
+    display: none;
 }
 
 .card h2{
@@ -179,8 +183,27 @@ footer p{
         margin-top: 5%;
         display: block;
     }
+    
+    #content{
+        max-height: 6000px;
+    }
 
-    /* .card img{
-        
-    } */
+    .card{
+        grid-template-columns: 1.5fr 1fr;
+        height: 3.2%;
+    }
+
+    .base-img{
+        display: none;
+    }
+
+    .rotated-img{
+        display: block;
+        background-color: var(--dark);
+        max-width: 100%;
+        max-height: 86%;
+        object-fit: cover;
+        object-position: center top;
+        border-right: 2px dashed var(--yellow);
+    }
 }
