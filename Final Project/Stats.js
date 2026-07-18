@@ -97,7 +97,7 @@ function displayTracks (trackList){
     content.innerHTML += `
     <div class="card">
         <img src="${track.image}.avif" alt="${track.name}" class="base-img">
-        <img src="${track.image} - copy.avif" alt="${track.name}" class="rotated-img">
+        <img src="${track.image} - Copy.avif" alt="${track.name}" class="rotated-img">
             <div class="track-info">
                 <h2>${track.name}</h2>  
                 <div class="track-stats">
@@ -130,12 +130,10 @@ function displayDrivers (driverList){
     });
 };
 
-
-
-    filterMenu.addEventListener("click", event => {
+filterMenu.addEventListener("click", event => {
         filterForm.classList.toggle("hidden");
-    });
-console.log(page);
+});
+
 if (page == 1){
 
     displayTracks(tracks);
